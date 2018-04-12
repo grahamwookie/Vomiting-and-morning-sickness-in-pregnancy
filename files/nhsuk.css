@@ -5,7 +5,18 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit; }
-
+  .mother-quote {
+    background-image: url(files/expectant-mother-quote.png);
+    height: 255px;
+    width: 630px;
+  }
+@media (min-width: 319px) {
+  .mother-quote {
+    background-image: url(files/expectant-mother-quote-mobi.png);
+    height: 304px;
+    width: 355px;
+  }
+}
 body,
 h1,
 h2,
@@ -1989,7 +2000,6 @@ a {
         color: #aeb7bd; }
   .breadcrumb__last:after {
     content: none !important; }
-
 .footer {
   font-size: 18px;
   background-color: #005eb8;
