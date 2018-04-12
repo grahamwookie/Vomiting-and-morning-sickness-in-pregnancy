@@ -3583,6 +3583,73 @@ li.skip-link {
   .multiple-choice label {
     width: 420px; } }
 
+.template-livewell-page {
+  background-color: white;
+  width: 100%;
+  margin: 0px; }
+  .template-livewell-page .block-markdown {
+    margin-bottom: 20px; }
+
+.livewell-hub__mobile {
+  display: inline-block; }
+  @media (min-width: 641px) {
+    .livewell-hub__mobile {
+      display: none; } }
+
+.livewell-hub__left {
+  display: none; }
+  @media (min-width: 641px) {
+    .livewell-hub__left {
+      display: inline-block;
+      margin-right: 4%;
+      margin-top: 0;
+      vertical-align: top;
+      width: 48%; } }
+
+.livewell-hub__right {
+  display: none; }
+  @media (min-width: 641px) {
+    .livewell-hub__right {
+      display: inline-block;
+      margin-top: 0;
+      vertical-align: top;
+      width: 48%; } }
+
+.livewell-hub__tile {
+  display: inline-block;
+  background-color: #E8EFF7;
+  width: 100%;
+  margin-bottom: 30px;
+  border: 4px;
+  border-style: solid;
+  border-top-color: #E8EFF7;
+  border-left-color: #E8EFF7;
+  border-right-color: #E8EFF7;
+  border-bottom-color: #CFD9E4;
+  margin-top: 0; }
+  .livewell-hub__tile a {
+    display: block;
+    padding-bottom: 16px;
+    text-decoration: none; }
+  .livewell-hub__tile img {
+    width: 100%; }
+  .livewell-hub__tile h2 {
+    color: #325DB2;
+    text-decoration: underline;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    padding: 0 16px; }
+  .livewell-hub__tile p {
+    display: none;
+    color: #455461; }
+    @media (min-width: 641px) {
+      .livewell-hub__tile p {
+        display: block;
+        margin-top: 16px;
+        padding: 0 16px; } }
+  .livewell-hub__tile:hover {
+    background-color: #CDD9E5; }
+
 .sidebar-navigation {
   padding: 0px;
   /*
