@@ -523,7 +523,7 @@ dl {
 .local-header li + li,
 .page-section li + li,
 .global-footer li + li {
-  margin-top: 8px; }
+  margin-top: 18px; }
 
 .local-header li > ul,
 .local-header li > ol,
