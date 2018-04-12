@@ -6,14 +6,14 @@ html {
 *, *:before, *:after {
   box-sizing: inherit; }
   .mother-quote {
-    background-image: url(files/expectant-mother-quote.png);
+    background-image: url(../files/expectant-mother-quote.png);
     background-repeat: no-repeat;
     height: 255px;
     width: 630px;
   }
 @media (min-width: 319px) {
   .mother-quote {
-    background-image: url(files/expectant-mother-quote-mobi.png);
+    background-image: url(../files/expectant-mother-quote-mobi.png);
     height: 304px;
     width: 355px;
   }
